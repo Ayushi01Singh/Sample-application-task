@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.abt{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 30px;
+}
+.di{
+    padding-top: 3%;
+}
+.divi{
+    background-color: bisque;
+}
+.bib{
+    background-image: url(/src/images/home.jpg);
+}
+    

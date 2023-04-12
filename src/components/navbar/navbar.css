@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* background-image: url(/src/images/house.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%; */
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:75px;
+    background-color: #25747b;
+    color:aliceblue;
+    /* background-image: url(/src/images/building.jpg); */
+}
+
+.logo{
+    font-size: 40px;
+}
+/* #LOGO{
+    font-size: 30px;
+} */
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    width: 75%;
+    justify-content: flex-end;
+}
+.home,
+.contact,
+.about{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin:0 10px;
+    cursor: pointer;
+}
